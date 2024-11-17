@@ -18,6 +18,10 @@ const students = [
     class: '5B'
   },
 ];
+const studentToFind = students.find((curItem, i) => curItem.id === 2);
+ console.log(studentToFind);
+
+
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
